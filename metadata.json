@@ -1,0 +1,10 @@
+{
+  "name": "Meï — Assistant Vocal de Meïssane Goma Kabisi",
+  "description": "Assistant vocal interactif haute fidélité représentant Meïssane Goma Kabisi, étudiante en marketing et communication à Paris.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

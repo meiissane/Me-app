@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Garamond, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-cream-50: #FDFAF6;
+  --color-cream-100: #FBF7F0;
+  --color-cream-200: #F4ECE1;
+  --color-cream-300: #EADDC9;
+  --color-cream-400: #DEC7A7;
+  --color-stone-warm: #1E1A17;
+  --color-accent-terracotta: #A3583C;
+  --color-accent-gold: #C29B38;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes wave-bar {
+  0%, 100% {
+    height: 6px;
+  }
+  50% {
+    height: 32px;
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
